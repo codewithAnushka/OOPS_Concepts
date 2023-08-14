@@ -32,6 +32,7 @@ public:
     }
     void setLevel(char ch)
     {
+        
         level = ch;
     }
 };
@@ -46,5 +47,6 @@ int main()
 
     Ironman.level = 'A';
     cout << "health is: " << Ironman.getHealth() << endl;
+    cout<<"Size of Ramesh is"
     cout << "Level is: " << Ironman.getLevel() << endl;
 }
